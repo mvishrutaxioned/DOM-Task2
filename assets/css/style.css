@@ -211,11 +211,7 @@ nav ul li a:hover { transform: scale(.8); }
 /* banner styling starts here */
 
 .banner .wrapper { width: 100%; }
-
-.slide-li {
-  height: 100vh;
-  position: relative;
-}
+.slide-li { position: relative; }
 
 .slide-li div {
   display: flex;
@@ -254,6 +250,8 @@ nav ul li a:hover { transform: scale(.8); }
   z-index: -10;
   filter: brightness(60%);
 }
+
+.slick-slide img { height: 640px; }
 
 .slick-dots {
   display: flex;
