@@ -477,6 +477,17 @@ footer .wrapper span {
     font-size: 12px;
     letter-spacing: 1px;
   }
+
+  #menu:hover { color: #fff; }
+  #close:hover { transform: scale(1); }
+  .slick-dots button:hover { opacity: .4; }
+  
+  .article-content a:hover {
+    background: #fff;
+    color: #a99999;
+  }
+  
+  footer .wrapper ul li a:hover { color: #beb8b8; }
 }
 
 /*media query for 320px starts here*/
