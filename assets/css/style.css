@@ -422,7 +422,31 @@ nav ul li a:hover { transform: scale(.8); }
   footer styling starts here
 =================================*/ 
 
+footer { background: #000; }
 
+footer .wrapper {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+}
+
+footer .wrapper ul { margin-bottom: 30px; }
+footer .wrapper ul li { margin: 0 10px; }
+
+footer .wrapper ul li a {
+  color: #beb8b8;
+  font-size: 26px;
+}
+
+footer .wrapper ul li a:hover {
+  color: #fff;
+  transition: .5s ease;
+}
+
+footer .wrapper span {
+  color: #beb8b8;
+  font-size: 14px;
+}
 
  /*=================================
   footer styling ends here
