@@ -306,7 +306,64 @@ nav ul li a:hover { transform: scale(.8); }
   left: 0;
 }
 
+/* section two styling starts here */
 
+.two { background: #f2f2f2; }
+
+.two .wrapper {
+  width: 86%;
+  padding: 80px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 55px;
+}
+
+.article-content {
+  padding: 35px 50px;
+  background: #fff;
+  text-align: center;
+}
+
+.article-content small,
+.three .wrapper small,
+.four .wrapper small {
+  color: #beb8b8;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.article-content h2 {
+  margin-top: 14px;
+  color: #000;
+  font-size: 25px;
+}
+
+.article-content h2::before {
+  width: 55%;
+  top: -5px;
+}
+
+.article-content p {
+  margin-top: 30px;
+  color: #a99999;
+  font-size: 14px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.article-content a {
+  padding: 8px 20px;
+  margin: 30px auto 5px auto;
+  border: 2px solid #a99999;
+  color: #a99999;
+  font-size: 14px;
+}
+
+.article-content a:hover {
+  background: #a99999;
+  color: #fff;
+  transition: .5s ease;
+}
 
 
 
