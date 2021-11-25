@@ -365,7 +365,26 @@ nav ul li a:hover { transform: scale(.8); }
   transition: .5s ease;
 }
 
+/* section three styling starts here */
 
+.three {
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.three .wrapper {
+  width: 100%;
+  padding: 75px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.three .wrapper h2 {
+  margin-top: 20px;
+  border-top: none;
+}
 
 
 
