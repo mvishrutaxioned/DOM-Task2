@@ -453,3 +453,47 @@ footer .wrapper span {
 =================================*/ 
 
 /*media query starts*/
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  .slide-li { height: auto; }
+}
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+  .two .wrapper { grid-template-columns: 1fr; }
+  .four .wrapper ul { grid-template-columns: 1fr; }
+}
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+  header { padding: 20px 0; }
+  .slide-li div h2 { font-size: 56px; }
+  .slide-li div p { padding: 40px 0 10px 0; }
+  .article-content { padding: 20px; }
+
+  .slide-li div p,
+  .three .wrapper small,
+  .four .wrapper small {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}
+
+/*media query for 320px starts here*/
+@media only screen and (max-width: 320px) {
+  header { padding: 5px 0; }
+  .slide-li div h2 { font-size: 26px; }
+
+  .slide-li div p {
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .slick-dots { bottom: 5px; }
+
+  .slick-dots button {
+    padding: 4px;
+    margin: 0 4px;
+  }
+}
