@@ -6,4 +6,14 @@ $(document).ready(function() {
         arrows: false,
         autoplay: true
     });
+
+    $('#menu').click(() => {
+        $('nav').addClass('showNav')
+        $('html, body').css("overflow", "hidden")
+    })
+
+    $('#close').click(() => {
+        $('nav').removeClass('showNav')
+        $('html, body').css("overflow", "visible")
+    })
 })
