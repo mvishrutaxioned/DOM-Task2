@@ -386,7 +386,33 @@ nav ul li a:hover { transform: scale(.8); }
   border-top: none;
 }
 
+/* section four styling starts here */
 
+.four { background: #f2f2f2; }
+
+.four .wrapper {
+  width: 86%;
+  padding: 85px 0;
+  text-align: center;
+}
+
+.four .wrapper h2 {
+  margin-top: 20px;
+  top: 0;
+  color: #000;
+}
+
+.four .wrapper h2::before { width: 50%; }
+.four .wrapper small { letter-spacing: 3px; }
+
+.four .wrapper ul {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 55px;
+}
+
+.four .wrapper ul li { border: 15px solid #fff; }
 
 /*=================================
   main styling ends here
