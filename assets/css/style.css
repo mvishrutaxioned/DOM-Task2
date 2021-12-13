@@ -366,10 +366,22 @@ nav ul li a:hover { transform: scale(.8); }
 /* section three styling starts here */
 
 .three {
-  background-image: url('../images/bg.jpg');
-  background-repeat: no-repeat;
-  background-position: left;
+  width: 100%;
+  position: relative;
+}
+
+.three::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../images/bg.jpg') left no-repeat fixed;
   background-size: cover;
+  filter: brightness(70%);
+  z-index: -10;
 }
 
 .three .wrapper {
